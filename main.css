@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: bisque;
+    padding: 16px 0;
+    color: rgb(103, 97, 87);
+    border-bottom: 8px solid rgba(103, 97, 87, 0.8);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+form {
+    padding: 16px 0;
+    color: rgb(103, 97, 87);
+    justify-content: center;
+    display: flex;
+    padding: 8px 2px;
+    font-weight: bold;
+}
+
+form input, h2, button {
+    margin: 6px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    color: black;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+
+ul li {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    padding: 3px;
+}
+
