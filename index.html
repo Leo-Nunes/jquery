@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./js/main.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Por favor preencha os campos abaixo</h2>
+            <form>
+                <div class="form">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required placeholder="Digite seu Nome">
+                </div>
+                <div class="form">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="Digite seu E-mail">
+                </div>
+                <div class="form">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form">
+                    <label for="cpf">CPF</label>
+                    <input type="txt" id="cpf">
+                </div>
+                <div class="form">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep">
+                </div>
+                <div class="form">
+                    <label for="endereço">Endereço Completo</label>
+                    <textarea type="text" id="endereço" required placeholder="Digite seu endereço"></textarea>
+                </div> 
+                    <Button type="submit">Enviar</Button>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
